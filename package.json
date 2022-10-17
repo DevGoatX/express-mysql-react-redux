@@ -1,7 +1,7 @@
 {
   "name": "express-mysql-react-redux",
   "version": "1.0.0",
-  "description": "MySQL, Express, React/Redux Boilerplate Application",
+  "description": "Express, MySQL React, Redux Signup/Login Application",
   "scripts": {
     "start": "babel-node server/app.js",
     "clean": "rimraf node_modules && rimraf dist && npm install",
@@ -15,12 +15,9 @@
     "lint": "eslint client server; exit 0",
     "test-backend": "mocha -r esm './server/**/*.test.js'"
   },
-  "directories": {
-    "test-backend": "./server"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bikranshu/express-react-boilerplate.git"
+    "url": "git+https://github.com/SaturnPlanet06/express-mysql-react-redux.git"
   },
   "keywords": [
     "node",
@@ -32,7 +29,7 @@
     "webpack",
     "boilerplate"
   ],
-  "author": "Krishna Timilsina <bikranshu.t@gmail.com>",
+  "author": "Saturn Planet <saturnp0106@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
