@@ -1,6 +1,8 @@
 Express, MySQL, React, Redux
 
 ## Get Started
+This is a kind of boilerplate for Express/MySQL/React/Redux.
+This contains only signup/login form and empty dashboard
 
 ### 1. Installation
 

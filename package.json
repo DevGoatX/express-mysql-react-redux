@@ -13,11 +13,11 @@
     "migrate:make": "knex migrate:make",
     "migrate:rollback": "knex migrate:rollback",
     "lint": "eslint client server; exit 0",
-    "test-backend": "mocha -r esm './server/**/*.test.js'"
+    "test-backend": "mocha './server/**/*.test.js'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SaturnPlanet06/express-mysql-react-redux.git"
+    "url": "git+https://github.com/Gen010606/express-mysql-react-redux.git"
   },
   "keywords": [
     "node",
